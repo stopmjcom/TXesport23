@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TX Esports | Join Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="page-join">
+  <div class="bg-layer"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo-withoutbackground.png" alt="TX logo" />
+      <span>TX ESPORTS</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+    <nav class="site-nav">
+      <a href="index.html" data-en="Home" data-fa="خانه">Home</a>
+      <a href="team.html" data-en="Our Team" data-fa="تیم ما">Our Team</a>
+      <a class="active" href="join.html" data-en="Join Us" data-fa="عضویت">Join Us</a>
+      <a href="contact.html" data-en="Contact Us" data-fa="ارتباط با ما">Contact Us</a>
+    </nav>
+
+    <button class="lang-switch" type="button" data-en="FA" data-fa="EN">FA</button>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <p class="eyebrow" data-en="Recruitment" data-fa="استخدام">Recruitment</p>
+      <h1 data-en="Join TX Esports" data-fa="به TX Esports بپیوند">Join TX Esports</h1>
+      <p data-en="Think you have what it takes? Submit your info and our staff will contact you for tryouts."
+         data-fa="فکر می کنی آماده ای؟ اطلاعاتت را ارسال کن تا برای تست با تو تماس بگیریم.">
+        Think you have what it takes? Submit your info and our staff will contact you for tryouts.
+      </p>
+    </section>
+
+    <section class="section reveal">
+      <form class="form-card">
+        <label data-en="Gaming Tag" data-fa="نام کاربری بازی" for="tag">Gaming Tag</label>
+        <input id="tag" type="text" data-en-placeholder="Your in-game name" data-fa-placeholder="نام داخل بازی" placeholder="Your in-game name" />
+
+        <label data-en="Age" data-fa="سن" for="age">Age</label>
+        <input id="age" type="number" placeholder="18" />
+
+        <label data-en="Main Game" data-fa="بازی اصلی" for="game">Main Game</label>
+        <input id="game" type="text" data-en-placeholder="VALORANT / CS2 / PUBG ..." data-fa-placeholder="VALORANT / CS2 / PUBG ..." placeholder="VALORANT / CS2 / PUBG ..." />
+
+        <label data-en="Rank" data-fa="رنک" for="rank">Rank</label>
+        <input id="rank" type="text" data-en-placeholder="Immortal / Faceit 9 ..." data-fa-placeholder="Immortal / Faceit 9 ..." placeholder="Immortal / Faceit 9 ..." />
+
+        <label data-en="Tell us about yourself" data-fa="درباره خودت بنویس" for="about">Tell us about yourself</label>
+        <textarea id="about" rows="5" data-en-placeholder="Your role, play style, and scrim experience..." data-fa-placeholder="نقش، سبک بازی و تجربه تیمی خودت را بنویس..." placeholder="Your role, play style, and scrim experience..."></textarea>
+
+        <button type="submit" class="btn btn-primary" data-en="Submit Application" data-fa="ارسال درخواست">Submit Application</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> TX Esports</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
